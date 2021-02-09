@@ -26,7 +26,7 @@ public class Statistics extends javax.swing.JFrame {
 
     public Statistics() {
         initComponents();
-       con = javaConnect.dbConnect();
+        con = javaConnect.dbConnect();
         middle();
         Issue();
         Return();
@@ -47,9 +47,8 @@ public class Statistics extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, e);
 
         }
-        
+
     }
-    
 
     public void Return() {
         try {
